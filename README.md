@@ -1,2 +1,2 @@
-# skillraiz
+Training Institute
  
