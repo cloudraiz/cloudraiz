@@ -2,7 +2,7 @@
   "name": "newskillraiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://johnDoe.github.io/newskillraiz",
+  "homepage": "https://cloudraiz.github.io/newskillraiz",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@testing-library/jest-dom": "^5.17.0",

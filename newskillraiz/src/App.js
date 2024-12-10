@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.css";
 import Hero from "./components/Hero";
 import OnlineLearningBenefits from "./components/OnlineLearningBenefits";
 import LearningPath from "./components/LearningPath";

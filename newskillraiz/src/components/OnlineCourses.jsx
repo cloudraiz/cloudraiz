@@ -71,7 +71,7 @@ const OnlineCourses = () => {
       title: 'DATA ENGINEERING',
       icon: <FaDatabase />,
       content:
-        'Develop data pipelines, work with big data technologies, and ensure efficient data processing and storage.',
+        'Develop data pipelines,and work with big data technologies, and ensure efficient the data processing and storage.',
       detailedContent: [
         'Data Engineering focuses on building systems to store and process data efficiently.',
         'Important Concepts:',

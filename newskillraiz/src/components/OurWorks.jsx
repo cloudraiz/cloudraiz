@@ -29,7 +29,7 @@ const OurWorks = () => {
 
       {/* Headline */}
       <h2 className="text-4xl font-semibold text-teal-800 text-center z-10 relative">
-        Our Alumni Work At
+        Our Alumini Work At
       </h2>
       <p className="text-center text-gray-900 mt-2 mb-8 z-10 relative">
         Discover the global companies where our graduates make an impact.

@@ -1,0 +1,40 @@
+/* src/styles.css */
+
+/* WebKit-specific styles for larger screens */
+.webkit-box {
+    -webkit-border-radius: 15px; /* WebKit-specific border radius */
+    border-radius: 15px; /* Standard border radius */
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* WebKit-specific box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Standard box shadow */
+    -webkit-transform: rotate(15deg); /* WebKit-specific transform */
+    transform: rotate(15deg); /* Standard transform */
+    -webkit-transition: all 0.3s ease; /* WebKit-specific transition */
+    transition: all 0.3s ease; /* Standard transition */
+}
+
+.webkit-box:hover {
+    -webkit-transform: rotate(0deg); /* WebKit-specific on hover */
+    transform: rotate(0deg); /* Standard transform on hover */
+}
+
+/* Mobile responsiveness - adjust for small screens */
+@media (max-width: 768px) {
+    .webkit-box {
+        -webkit-border-radius: 10px; /* Smaller border radius for mobile */
+        border-radius: 10px; /* Smaller border radius */
+        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Smaller shadow for mobile */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Smaller shadow */
+        -webkit-transform: rotate(0deg); /* Remove rotation for mobile */
+        transform: rotate(0deg); /* Remove rotation */
+    }
+}
+
+/* Further customization for extra small screens (e.g., below 480px) */
+@media (max-width: 480px) {
+    .webkit-box {
+        -webkit-border-radius: 8px; /* Even smaller border radius */
+        border-radius: 8px; /* Standard smaller border radius */
+        -webkit-box-shadow: none; /* No shadow for very small screens */
+        box-shadow: none; /* No shadow for very small screens */
+    }
+}
