@@ -53,7 +53,7 @@ const Hero = () => {
         </ul>
 
         {/* Mobile Menu Button (Hamburger) */}
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden  items-center">
           <button onClick={toggleMenu} className="text-teal-500">
             {menuOpen ? (
               <svg

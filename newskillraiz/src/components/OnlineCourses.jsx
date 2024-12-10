@@ -71,7 +71,7 @@ const OnlineCourses = () => {
       title: 'DATA ENGINEERING',
       icon: <FaDatabase />,
       content:
-        'Develop data pipelines,and work with big data technologies, and ensure efficient the data processing and storage.',
+        'Develop data pipelines, work with big data technologies, and ensure efficient data processing and storage.',
       detailedContent: [
         'Data Engineering focuses on building systems to store and process data efficiently.',
         'Important Concepts:',
@@ -97,7 +97,7 @@ const OnlineCourses = () => {
     <div className="relative min-h-screen">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-98 object-cover -z-9"
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         src={videopath}
         autoPlay
         loop
